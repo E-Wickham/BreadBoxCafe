@@ -27,6 +27,11 @@
     display: inline;
 }
 
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 /* JOB POSTINGS */
 
 .Job-Container {
