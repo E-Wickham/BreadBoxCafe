@@ -1,0 +1,105 @@
+/*parallax image src, rest of the styling inherited*/
+.parallax.contest {
+    background-image: url("../images/game/game_background.jpg");
+    min-height: 200px;
+}
+
+/*Contest Rules*/
+
+p.rules {
+    line-height: 200%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.rules {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+ul.rules.list {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    line-height: 200%;
+}
+
+#free {
+    font-weight: bolder;
+}
+
+/*contest elements*/
+/**********************************************
+*** GENERAL
+**********************************************/
+/*dice */
+.dice {
+    border: 3px solid grey;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 10px;
+}
+/* buttons */
+button {
+    background-color: rgb(82, 186, 179);
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+/* scoreboard to display the chances left*/
+.scoreboard{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    vertical-align: middle;
+    font-size: 2em;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey;
+    color: white;
+    background-color: #ca8a56;
+}
+
+.scoreboard:last-child{
+    float: right;
+}
+.boards{
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* message div*/
+p#msg {
+    line-height: 200%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    color: grey;
+    margin-bottom: 30px;
+    display: none;
+}

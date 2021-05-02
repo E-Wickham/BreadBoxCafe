@@ -1,0 +1,407 @@
+#site-wrapper {
+    display: block;
+    max-width: 100%;
+    font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#site-wrapper p {
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+#content-wrapper {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#site-title {
+    font-size: 2rem;
+}
+
+#heroimg {
+    max-width: 100%;
+    margin-top: 0;
+    display: inline;
+}
+
+/* JOB POSTINGS */
+
+.Job-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.job-item {
+    flex: 20%;
+    border: 5px black solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.big-job-item {
+    flex: 100%;
+    max-width: 100%;
+    border: 5px black solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.hidden-jobinfo {
+    display: none;
+}
+
+.jobinfo {
+    display: block;
+    font-weight: 400;
+}
+
+.job-item:hover {
+    background-color: lightgoldenrodyellow;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#Apply-Now {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    font-size: 2rem;
+    max-width: 50%;
+
+}
+
+#Apply-Now:hover {
+    background-color: goldenrod;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.job-post-btn {
+    padding: 5px;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-U1Ug.ttf) format('truetype');
+  }
+  /* VARIABLES */
+  /* MIXINS */
+  .logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.75em;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    color: #ca8a56;
+    text-align: center;
+  }
+  .menu {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 1.375em;
+    list-style-type: none;
+    text-shadow: 2px 2px 4px #5a4136;
+  }
+  .menulink {
+    color: #fff;
+    text-decoration: none;
+  }
+  .textstyle-one {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.18em;
+    color: #33292d;
+    font-weight: lighter;
+    white-space: pre-line;
+    text-align: center;
+  }
+  .textstyle-two {
+    font-family: 'Open Sans', sans-serif;
+    color: #33292d;
+    font-size: 1.25em;
+    text-align: center;
+  }
+  .footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    background-color: #ca8a56;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .footer li {
+    list-style-type: none;
+  }
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #5a4136;
+  }
+  .footer a:hover {
+    color: #33292d;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #885c47;
+  }
+  .textstyle-three {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.75em;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+  }
+  .buttonstyle a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    background-color: #fa924d;
+    color: #33292d;
+  }
+
+
+/* III. MAIN NAVIGATION & HEADER */
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.75em;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    color: #ca8a56;
+    text-align: center;
+    flex: 1 0 100%;
+  }
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #33292d;
+    font-size: 1.25em;
+    text-align: center;
+    font-size: 2.3em;
+  }
+
+  .hidden {
+      display: none;
+  }
+  nav {
+    background-color: #ca8a56;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 1.375em;
+    list-style-type: none;
+    text-shadow: 2px 2px 4px #5a4136;
+    text-align: center;
+    flex: 1 0 100%;
+    order: -1;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: #5a4136;
+    text-shadow: none;
+    font-weight: bold;
+  }
+  nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 1em;
+  }
+  
+  /* IV. SECTION BANNER ONE: Parallax & Text */
+  main {
+    flex: 1 0 100%;
+  }
+  #banner-one {
+    margin-bottom: 2em;
+  }
+  #banner-one img {
+    height: 390px;
+    width: 1200px;
+  }
+  #banner-one h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.18em;
+    color: #33292d;
+    font-weight: lighter;
+    white-space: pre-line;
+    text-align: center;
+    padding: 50px;
+  }
+  /* V. SECTION BANNER TWO: Image Links */
+  #banner-two ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-bottom: 70px;
+    margin-top: 80px;
+  }
+  #banner-two img {
+    height: 235px;
+    width: 285px;
+    display: block;
+  }
+  #banner-two li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+  }
+  #banner-two li a {
+    font-family: 'Open Sans', sans-serif;
+    color: #33292d;
+    font-size: 1.25em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  #banner-two li a:hover {
+    font-weight: bold;
+    color: #ca8a56;
+  }
+  /* VI. SECTION BANNER THREE: Contests/Daily & Weekly Specials */
+  #banner-three {
+    background-image: url("../images/bg_specials.jpg");
+    margin-bottom: 2.5em;
+    padding-bottom: 1em;
+    height: 175px;
+  }
+  #banner-three p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.75em;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+    white-space: pre-line;
+    margin-bottom: 0.5em;
+  }
+  #banner-three button a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    background-color: #fa924d;
+    color: #33292d;
+  }
+  /* VII. FOOTER */
+  footer {
+    flex: 1 0 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    background-color: #ca8a56;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  footer li {
+    list-style-type: none;
+  }
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #5a4136;
+  }
+  footer a:hover {
+    color: #33292d;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #885c47;
+  }
+  [class^="footer"] {
+    flex: 1 0 20%;
+  }
+  [class^="footer"] h3 {
+    padding-left: 30px;
+  }
+  [class^="footer"] ul {
+    padding-left: 30px;
+  }
+  #contact li:nth-child(2) {
+    text-transform: lowercase;
+  }
+  #credits {
+    flex: 1 0 100%;
+    text-align: center;
+    padding: 1em 1em;
+  }
+  #credits p {
+    line-height: 2px;
+  }
+  /* VIII. MEDIA QUERIES */
+  @media screen and (max-width: 768px) {
+    #banner-three {
+      display: none;
+    }
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+  /*flexbox addons*/
+
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+  /*form */
+.form-flex {
+  display: flex;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body-text{
+  flex: 2 0 0;
+}
+  
+#event-boooking {
+  flex: 1 0 0;
+  justify-content: center;
+
+}
+
+input {
+  width: 300px;
+}
+
+input#button {
+  max-width: 100px;
+  display: block;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#thankyoumsg {
+  display: none; 
+}
+
+#button {
+  padding: 5px;
+  margin-bottom: 10px;
+}

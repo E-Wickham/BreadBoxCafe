@@ -1,0 +1,127 @@
+.page-container{
+    padding-bottom: 2em;
+    padding-right: 0;
+}
+
+#maintext{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.75em;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  color: #ca8a56;
+  text-align: center;
+  flex: 1 0 100%;
+}
+#subtext{
+font-family: 'Open Sans', sans-serif;
+  color: #33292d;
+  font-size: 1.25em;
+  text-align: center;
+  font-size: 1.3em;
+}
+#contact-form{
+    font-size: 15px;
+    color: #885c47;
+    line-height: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;  
+    font-weight: 600;
+    padding-left: 10em;
+    padding-top: 0em;
+    padding-right: 13.7em;
+    
+}
+
+.contactform{
+  border-radius: 5px;
+  padding-left: 2em;
+ 
+}
+
+input[type=submit]
+{
+    font-size:18px;
+    font-family:'Open Sans', sans-serif;
+    background-color:#ca8a56;
+    width: 100%;
+    padding: 1em;;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+label
+{
+    font-size:18px;
+    font-family:'Open Sans', sans-serif;
+    color:#ca8a56;
+}
+input[type=submit]:hover {
+  background-color:#c67d49; 
+}
+input[type=text],input[type=email],input[type=tel], textarea {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+#banner-two-extra{
+    padding: 1em;
+    border-radius: 5px;
+    padding-bottom: 1em;
+    padding-right: 0;
+    
+}
+
+#banner-two img {
+    width: 300px;
+    height: 300px;
+    padding-right: 0;
+}
+
+#banner-two-extra ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-bottom: 70px;
+  margin-top: 80px;
+}
+#banner-two-extra img {
+  height: 400px;
+  width: 500px;
+  display: block;
+  padding-top: 3em;
+  
+  
+}
+#banner-two-extra li {
+  list-style-type: none;
+  display: inline-block;
+  line-height: 60px;
+  text-align: center;
+ 
+  
+}
+#banner-two-extra li a {
+  font-family: 'Open Sans', sans-serif;
+  color: #33292d;
+  font-size: 1.25em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+#banner-two-extra li a:hover {
+  font-weight: bold;
+  color: #ca8a56;
+  
+}
+
+
+

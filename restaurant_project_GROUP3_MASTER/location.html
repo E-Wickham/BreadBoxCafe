@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Locations: Bread Box Cafe</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/location.css">
+        <script 
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+            async>
+        </script>
+        <script src="scripts/locationScript.js"></script>
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <header>
+                <div class="flex-container">
+                    <h1>Locations</h1>
+                    <nav>
+                        <h2 class="hidden">Main Navigation</h2> <!-- this is hidden-->
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu/menu.html">Menu</a></li>
+                            <li><a href="events.html">Events</a></li> 
+                            <li><a href="location.html">Locations</a></li> 
+                            <li><a href="about/about.html">About</a></li>
+                            <li><a href="contact/Contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <section id="banner-one">
+                    <div class="parallax location"></div> <!-- image parallax -->
+                    <h2 id="loc_h2">Where do you wanna go?</h2>
+                </section>
+                <div class="page-container">
+                    <section id="banner-two">
+                        <div class="menu loc">
+                            <button id="showNorth" class="button" onclick="displayNorthBakery()">North Bakery</button>
+                            <button id="showLakeshore" class="button" onclick="displayLakeshoreBakery()">Lakeshore Bakery</button>
+                        </div>
+                        <div class="address_map">
+                            <div class="col50">
+                                <h3>Address</h3>
+                                <p id="locationNorth">Bread Box Cafe,<span></span> 6640 Finch Ave W #7,<span></span>  Etobicoke,<span></span>  ON M9W 0B3,<span></span>  Canada<span></span><a href="tel:250-555-1199">250-555-1199</a></p>
+                                <p id="locationLake">Bread Box Cafe,<span></span>  3455 Lake Shore Blvd W,<span></span>  Etobicoke,<span></span>  ON M8W 1N2,<span></span>  Canada<span></span>  <a href="tel:250-555-0199">250-555-0199</a></p>
+                            </div>
+                            <div class="col50">
+                                <h3>Map</h3>
+                                <div id="map"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <div class="page-container">
+                <div class="flex-container">
+                    <div class="footer-sec">
+                        <h3>More Info</h3>
+                        <ul>
+                            <li><a href="menu/menu.html">Menu</a></li>
+                            <li><a href="sitemap.html">Site Map</a></li> 
+                            <li><a href="careers.html">Careers</a></li> 
+                        </ul>
+                    </div>
+                    <div class="footer-sec">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li><a href="location.html#north">North</a></li>
+                            <li><a href="location.html#lakeshore">Lakeshore</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-sec">
+                        <h3>Specials</h3>
+                        <ul>
+                            <li><a href="specials/DailySpecial.html">Daily Specials</a></li>
+                            <li><a href="specials/MonthlySpecial.html">Monthly Specials</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-sec">
+                        <h3>Contests</h3>
+                        <ul>
+                            <li><a href="contest.html">Weekly Contest</a></li>
+                            <li><a href="#">Prizes</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-sec">
+                        <h3>Get in touch</h3>
+                        <ul id="contact">
+                            <li><a href="contact.html">Contact us</a></li>
+                            <li>info@breadbox.com</li>
+                            <li>416-000-0000</li>
+                        </ul>
+                    </div>
+                    <div id="credits">
+                        <p>&copy;Bread Box Cafe 2021</p>
+                        <p>HTTP5103 Restaurant Project - Team 3</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

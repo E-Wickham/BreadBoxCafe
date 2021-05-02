@@ -1,0 +1,77 @@
+/*parallax image src, rest of the styling inherited*/
+.parallax.location {
+    background-image: url("../images/location.jpg");
+    min-height: 400px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 300px;
+    /* The height is 400 pixels */
+    width: 60%;
+    /* The width is the width of the web page */
+    margin: 0 auto;
+    border: 5px solid white;
+    box-shadow: 0px 2px 20px grey;
+
+}
+
+/*location buttons*/
+.menu.loc {
+    text-align: center;
+}
+
+.button {
+    margin: 0;
+}
+
+.button:first-child {
+    margin-right: 40px;
+}
+
+.button:last-child {
+    margin-left: 40px
+}
+
+/*flex containing address and map columns*/
+.address_map {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col50 {
+    flex: 1 0 50%;
+
+    margin: 5% 0;
+}
+
+/*heading h3*/
+.col50 h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #33292d;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+/*address styling*/
+.col50 p {
+    line-height: 200%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*new line*/
+.col50 p span {
+    display: block;
+}
+
+/*telephone number a*/
+.col50 a {
+    text-decoration: none;
+    color: #33292d;
+    font-weight: bold;
+}
+
+.col50 a:hover {
+    color: #ca8a56;
+}

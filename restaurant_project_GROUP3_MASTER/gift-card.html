@@ -1,0 +1,144 @@
+<!--
+    This page contains guft-card page for team restaurant project team 3.
+    The user will pick a card from the menu and redeem it in the section and it will reflect the card amount.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bread Box Cafe</title>
+    <link rel="stylesheet" type="text/css" href="css/stylegift.css">
+    <script src="../restaurant_project_GROUP3_MASTER/js/giftcards.js"></script>
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <div class="flex-container">
+        <header>
+            <div class="flex-container">
+                <h1>Bread Box Cafe</h1>
+                <nav>
+                    <h2 class="hidden">Main Navigation</h2> <!-- this is hidden-->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu/menu.html">Menu</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="location.html">Locations</a></li>
+                        <li><a href="about/about.html">About</a></li>
+                        <li><a href="contact/Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="gift-card">
+                <h2>Redeem your gift card here.</h2>
+                <div id="redeem">
+                    <form name="codes" action="#" method="get">
+                        <label for="cardcode">Type the GC Code present in the gift card</label>
+                        <div>
+                        <input type="text" id="cardcode" name="code" placeholder="#">
+                    </form>
+                    </div>
+                    <button class="button" id="rdm">Redeem</button>
+                    <p id="balance">Your current balance is: CAD 0</p>
+                </div>
+                <div id="cards">
+                <p>Need a gift card!!Pick here and enjoy our find dining experience.</p>
+                <div id="buy">
+                    <div class="card">
+                        <img src="../restaurant_project_GROUP3_MASTER/images/50CAD.png">
+                        <div id="text">
+                            <h3>Card Value: 50 CAD</h3>
+                            <h3>GC Code: Silver</h3>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card">
+                        <img src="../restaurant_project_GROUP3_MASTER/images/100CAD.jpeg">
+                        <div id="text">
+                            <h3>Card Value: 100 CAD</h3>
+                            <h3>GC Code: Gold</h3>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card">
+                        <img src="../restaurant_project_GROUP3_MASTER/images/150CAD.png">
+                        <div id="text">
+                            <h3>Card Value: 150 CAD</h3>
+                            <h3>GC Code: Platinum</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section id="banner-three">
+                <div class="options">
+                    <p>Join our weekly contest
+                        for amazing prices!</p>
+                    <div class="button-container">
+                        <a href="" class="button">Join</a> <!-- add CONTEST page -->
+                    </div>
+                </div>
+                <div class="options">
+                    <p>Find out more about
+                        our daily specials.</p>
+                    <div class="button-container">
+                        <a href="specials/DailySpecial.html" class="button">Specials</a>
+                    </div>
+                </div>
+            </section>
+    </div>
+    </main>
+    </div>
+    <footer>
+        <div class="page-container">
+            <div class="flex-container">
+                <div class="footer-sec">
+                    <h3>More Info</h3>
+                    <ul>
+                        <li><a href="menu/menu.html">Menu</a></li>
+                        <li><a href="sitemap.html">Site Map</a></li> 
+                        <li><a href="careers.html">Careers</a></li> 
+                    </ul>
+                </div>
+                <div class="footer-sec">
+                    <h3>Locations</h3>
+                    <ul>
+                        <li><a href="location.html#north">North</a></li>
+                        <li><a href="location.html#lakeshore">Lakeshore</a></li>
+                    </ul>
+                </div>
+                <div class="footer-sec">
+                    <h3>Specials</h3>
+                    <ul>
+                        <li><a href="specials/DailySpecial.html">Daily Specials</a></li>
+                        <li><a href="specials/MonthlySpecial.html">Monthly Specials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-sec">
+                    <h3>Contests</h3>
+                    <ul>
+                        <li><a href="contest.html">Weekly Contest</a></li>
+                        <li><a href="#">Prizes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-sec">
+                    <h3>Get in touch</h3>
+                    <ul id="contact">
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li>info@breadbox.com</li>
+                        <li>416-000-0000</li>
+                    </ul>
+                </div>
+                <div id="credits">
+                    <p>&copy;Bread Box Cafe 2021</p>
+                    <p>HTTP5103 Restaurant Project - Team 3</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

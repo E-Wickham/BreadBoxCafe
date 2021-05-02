@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Events Booking | Bread Box Cafe</title>
+        <link rel="stylesheet" type="text/css" href="css/styleEvents.css">
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <header>
+                <div class="flex-container">
+                    <h1>Bread Box Cafe</h1>
+                    <nav>
+                        <h2 class="hidden">Main Navigation</h2> <!-- this is hidden-->
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu/menu.html">Menu</a></li>
+                            <li><a href="events.html">Events</a></li> 
+                            <li><a href="location.html">Locations</a></li> 
+                            <li><a href="about/about.html">About</a></li>
+                            <li><a href="contact/Contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="page-container">
+                    <h1 id="site-title">Book an event!</h1>
+  
+                    <!-- horizontal line -->
+                    
+                    <div class="form-flex">
+
+                        <p class="body-text">Would you like to host an event at the Breadbox Cafe? Well we would love to have you. 
+                            Our atrium (formerly our artillery garrison) is available for evening events!
+                        Use our interactive form and a customer service representative will be in contact with you shortly!
+                        </p>
+                    </div>
+                    <div class="form-flex">
+
+                        <form action="#" id="eventbookform" method="post" name="eventbooking">
+                            <fieldset>
+                                <label for="fname">First name:</label><br>
+                                <input type="text" id="i_fname" name="n_fname"><span id="nameErr"></span><br>
+                                <label for="lname">Last name:</label><br>
+                                <input type="text" id="i_lname" name="n_lname"><br>
+                                <label for="email">Email:</label><br>
+                                <input type="text" id="i_email" name="n_email"><br>
+                                <label for="date">Book a day:</label><br>
+                                <select id="i_date" name="n_date"><br>
+                                    <option id="opt1" value="day1"></option>
+                                    <option id="opt2" value="day2"></option>
+                                    <option id="opt3" value="day3"></option>
+                                    <option id="opt4" value="day4"></option>
+                                    <option id="opt5" value="day5"></option>
+                                    <option id="opt6" value="day6"></option><br>
+                                </select>  
+                            </fieldset>  
+                            <input id="button" type="submit" name="submit" value="Submit">             
+                         </form>
+
+                    
+                            <!--#### OUTPUT MESSAGE (HIDDEN UNTIL FORM VALIDATES) #### -->
+                            <div id="thankyoumsg">
+                                <h3>Thank you <span id="thanksCustomer"></span> for booking with us. A customer service representative will be reaching out shortly about your requested event time.</h2>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+
+
+
+
+        <footer>
+            <div class="page-container">
+                <div class="flex-container">
+                    <div class="footer-sec">
+                        <h3>More Info</h3>
+                        <ul>
+                            <li><a href="menu/menu.html">Menu</a></li>
+                            <li><a href="sitemap.html">Site Map</a></li> 
+                            <li><a href="careers.html">Careers</a></li> 
+                        </ul>
+                    </div>
+                    <div class="footer-sec">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li><a href="location.html#north">North</a></li>
+                            <li><a href="location.html#lakeshore">Lakeshore</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-sec">
+                        <h3>Specials</h3>
+                        <ul>
+                            <li><a href="specials/DailySpecial.html">Daily Specials</a></li>
+                            <li><a href="specials/MonthlySpecial.html">Monthly Specials</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-sec">
+                        <h3>Contests</h3>
+                        <ul>
+                            <li><a href="contest.html">Weekly Contest</a></li>
+                            <li><a href="#">Prizes</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-sec">
+                        <h3>Get in touch</h3>
+                        <ul id="contact">
+                            <li><a href="contact.html">Contact us</a></li>
+                            <li>info@breadbox.com</li>
+                            <li>416-000-0000</li>
+                        </ul>
+                    </div>
+                    <div id="credits">
+                        <p>&copy;Bread Box Cafe 2021</p>
+                        <p>HTTP5103 Restaurant Project - Team 3</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/daycalc.js"></script>
+    </body>
+</html>
