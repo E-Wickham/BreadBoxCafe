@@ -197,7 +197,7 @@ h1 {
     letter-spacing: 5px;
     color: #ca8a56;
     text-align: center;
-    flex: 1 0 100%;
+    flex: 100%;
   }
   h2 {
     font-family: 'Open Sans', sans-serif;
