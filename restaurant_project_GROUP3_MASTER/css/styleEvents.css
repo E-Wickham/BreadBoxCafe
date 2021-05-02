@@ -27,10 +27,7 @@
     display: inline;
 }
 
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-}
+
 
 /* JOB POSTINGS */
 
@@ -219,7 +216,7 @@ h1 {
     list-style-type: none;
     text-shadow: 2px 2px 4px #5a4136;
     text-align: center;
-    flex: 1 0 100%;
+    flex: 100%;
     order: -1;
     width: 100%;
   }
